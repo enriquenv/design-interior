@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+
+/* HEADER SECTION */
+body header {
+    height: 90vh;
+    display: flex;
+}
+
+body header aside {
+    height: 100%;
+    width: 40vw;
+    text-align: center;
+    padding: 20% 0;
+}
+
+body header aside h1 {
+    font-size: 4em;
+}
+
+body header aside h2 {
+    font-size: 1.25em;
+}
+
+body > header > div {
+    height: 100%;
+    width: 60vw;
+    background-image: url(../img/design-interior-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVIGATION SECTION */
+body nav {
+    height: 10vh;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+body nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body nav ul li {
+    padding: 0 20px;
+    margin: 0 40px;
+}
+
+body nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* STORY SECTION */
+body main #story {
+    background-color: #2e2e2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body main #story img {
+    max-width: 55%;
+    padding: 10vh 0;
+}
+
+body main #story article {
+    max-width: 45%;
+    padding: 10vh 5vw 18vh;
+}
+
+body main #story article h3 {
+    text-align: center;
+}
+
+/* FEATURED SECTION */
+body main #featured article {
+    text-align: center;
+    padding: 75px 0 25px 0;
+    max-width: 500px;
+    margin: auto;
+}
+
+body main #featured div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+body main #featured img, body main #featured iframe {
+    max-width: 400px;
+    padding: 20px 10px;
+}
+
+body main #featured iframe {
+    height: 225px;
+}
+
+/* CONTACT SECTION */
+body main #contact {
+    height: 50vh;
+    background-color: #2e2e2e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body main #contact article {
+    max-width: 400px;
+}
+
+body main #contact form {
+    margin: 200px;
+}
+
+body main #contact form legend {
+    padding: 10px 0 0 0;
+}
+
+body main #contact form input[type=text] {
+    width: 250px;
+}
+
+body main #contact form input[placeholder=Optional] {
+    height: 2em;
+}
+
+body main #contact form input[type=submit] {
+    padding: 5px;
+}
+
+/* FOOTER */
+body footer {
+    height: 10vh;
+    background-color: #1d2c2f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body footer p:first-of-type {
+    padding-left: 30px;
+}
+
+body footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+body footer ul li {
+    padding: 0 30px 0 0;
+}
+
+body footer ul li a {
+    color: white;
+    text-decoration: none;
+}
