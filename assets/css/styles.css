@@ -186,3 +186,190 @@ body footer ul li a {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {    
+    /* HEADER SECTION */
+    body header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    body header aside {
+        height: 20vh;
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+    }
+    
+    body header aside h1 {
+        font-size: 2.5em;
+    }
+    
+    body header aside h2 {
+        font-size: 1em;
+    }
+    
+    body > header > div {
+        height: 80vh;
+        width: 100vw;
+        background-image: url(../img/design-interior-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    /* NAVIGATION SECTION */
+    body nav {
+        background-color: #2e2e2e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* position: sticky;
+        top: 0; */
+    }
+    
+    body nav img {
+        max-width: 30%;
+    }
+
+    body nav ul {
+        width: 70%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    body nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: .7em;
+    }
+    
+    /* STORY SECTION */
+    body main #story {
+        background-color: #2e2e2e;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    body main #story img {
+        max-width: 100vw;
+        padding: 5vh 0 2.5vh;
+    }
+    
+    body main #story article {
+        max-width: 95vw;
+        padding: 5vh 0 5vh;
+    }
+    
+    body main #story article h3 {
+        text-align: center;
+    }
+    
+    /* FEATURED SECTION */
+    body main #featured article {
+        text-align: center;
+        padding: 75px 0 25px 0;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    body main #featured div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+    }
+    
+    body main #featured img, body main #featured iframe {
+        max-width: 100vw;
+        padding: 20px 0px;
+    }
+    
+    body main #featured iframe {
+        height: 225px;
+        max-width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* CONTACT SECTION */
+    body main #contact {
+        background-color: #2e2e2e;
+        height: 120vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    body main #contact article {
+        height: 50%;
+        max-width: 80%;
+    }
+    
+    body main #contact form {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        /* margin: 200px; */
+    }
+    
+    body main #contact form legend {
+        padding: 10px 0 0 0;
+    }
+    
+    body main #contact form input[type=text] {
+        width: 65%;
+    }
+    
+    body main #contact form input[placeholder=Optional] {
+        height: 2em;
+    }
+    
+    body main #contact form input[type=submit] {
+        padding: 5px;
+    }
+    
+    /* FOOTER */
+    body footer {
+        background-color: #1d2c2f;
+        color: white;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body footer p:first-of-type {
+        padding-left: 0;
+    }
+    
+    body footer ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body footer ul li {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
+}
