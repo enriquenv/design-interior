@@ -304,7 +304,7 @@ body footer ul li a {
     /* CONTACT SECTION */
     body main #contact {
         background-color: #2e2e2e;
-        height: 120vh;
+        height: 90vh;
         color: white;
         display: flex;
         flex-direction: column;
@@ -314,6 +314,8 @@ body footer ul li a {
     body main #contact article {
         height: 50%;
         max-width: 80%;
+        margin-top: 150px;
+        margin-bottom: -110px;
     }
     
     body main #contact form {
