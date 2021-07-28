@@ -67,8 +67,8 @@ body nav ul {
 }
 
 body nav ul li {
-    padding: 0 20px;
-    margin: 0 40px;
+    padding: 0 10px;
+    margin: 0 17px;
 }
 
 body nav ul li a {
@@ -243,6 +243,12 @@ body footer ul li a {
         justify-content: flex-start;
         flex-wrap: wrap;
     }
+
+    body nav ul li {
+        padding: 0 15px;
+        margin: 0 25px;
+        width: 62.92px;
+    }
     
     body nav ul li a {
         text-decoration: none;
@@ -262,7 +268,7 @@ body footer ul li a {
     
     body main #story img {
         max-width: 100vw;
-        padding: 5vh 0 2.5vh;
+        padding: 0 0 2.5vh;
     }
     
     body main #story article {
@@ -314,15 +320,14 @@ body footer ul li a {
     body main #contact article {
         height: 50%;
         max-width: 80%;
-        margin-top: 150px;
-        margin-bottom: -110px;
+        margin-top: 10%;
     }
     
     body main #contact form {
         width: 100%;
         height: 50%;
         text-align: center;
-        /* margin: 200px; */
+        margin: 0;
     }
     
     body main #contact form legend {
@@ -373,5 +378,30 @@ body footer ul li a {
     body footer ul li a {
         color: white;
         text-decoration: none;
+    }
+}
+
+/* NAVIGATION SECTIONS */
+@media screen and (max-width: 457px) {
+    body nav ul li {
+        padding: 0;
+        margin: 0 25px;
+        width: 62.92px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    body nav ul li {
+        padding: 0;
+        margin: 0 18.5px;
+        width: 62.92px;
+    }
+}
+
+@media screen and (max-width: 286px) {
+    body nav ul li {
+        padding: 0;
+        margin: 0 2px;
+        width: 62.92px;
     }
 }
